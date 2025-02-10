@@ -6,8 +6,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  # schedule:
-  #   - cron: '0 8 * * *'
+  schedule:
+    - cron: '0 8 * * *'
 
 env:
   DBT_PROFILES_DIR: ./nyc_parking_violations
