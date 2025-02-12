@@ -30,3 +30,11 @@ To resolve this issue:
 [lil-course-url]: https://www.linkedin.com/learning/data-engineering-with-dbt
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHnrbGtKKAabg/learning-public-crop_675_1200/0/1703199806902?e=2147483647&v=beta&t=Q6jKFTslSvhl3bYTkd0PuIEVnIx26lCa-XWVE5hCmm0
 
+## Venv
+To create a virtual environment and install requirements:
+`python3 -m venv venv`
+Then activate it:
+`source venv/bin/activate`
+Ensure you're in the nyc_parking_violations/nyc_parking_violations directory first.
+Then install the requirements:
+`pip install -r requirements.txt`
